@@ -1,6 +1,6 @@
 名刺をスキャンし、テキストファイルに出力するコードを以下に示す。
 
-'
+
 import cv2
 import numpy as np
 
@@ -88,7 +88,7 @@ file = open('test.txt', 'w') #テキストファイルを書き込み権限で�
 file.write(txt)	#抽出した文字をテキストファイルに書き込む
 file.close() 
 
-'
+
 
 
 cv2.findContours:引数は入力画像、抽出モード、近似手法
